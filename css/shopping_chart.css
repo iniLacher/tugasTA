@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Poppins:wght@500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Poppins', 'Courier New', Courier, monospace;
+}
+body{
+  background-color: rgb(132, 132, 132);
+}
+.container {
+  margin: 8%;
+  width: 80vw;}
+  /* background-color: aqua; */
+  /* display: flex;
+  flex-direction: column; */
+  /* background-color: rgb(105, 73, 195);
+ 
+ .container .nduwur {
+  border-bottom: 1px solid #000;
+}
+.container .tengah .card {
+  display: flex;
+  flex-direction: column;
+  /* background: #7e24245b; */
+  /* top: 0;
+  position: relative;
+  width: 100%;
+  height: 25vh;
+  box-shadow: 1px 1px 6px rgba(140, 139, 139, 0.711);
+  border-radius: 5px;
+  margin-top: 3%;
+} */
+
+/* .card input{
+  align-self: baseline;
+  margin:auto 0;
+  align-items: flex-end;
+}
+.card img {
+  margin-left: 1vw;
+  margin-top: -4%;
+  max-width: 100px;
+  max-height: 73.3px;
+}
+.card .rego  {
+  display: flex; */
+  /* background-color: red; */
+  /* flex-direction: column; */
+  /* margin: -10vh 11%; */
+  /* width: 40%; */
+  /* height: 60%; */
+  /* margin-left: ; }*/
+  .tengah{
+    background-color: red;
+    display: grid;
+    width: 791px;
+    height: 132px;
+    grid-template-columns: 1% 2fr 3fr 4fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    'cb gambar1 jeneng ijike'
+    ' gambar spasi ijike'
+    /* 'cb gambar rego aksi'; */
+    /* column-gap: 10px; */
+
+  }
+  .cb {
+    display: grid;
+    grid-area: tengah;
+
+  }
+  .gambar {
+    display: grid;
+    grid-area: gambar1;
+    /* justify-items: center; */
+    /* gap: 10px; */
+    margin-left: 20px;
+    
+  }
+  .jeneng{
+    grid-area: jeneng;
+    display: grid;
+    justify-items: center;
+    height: 20%;
+  }
+  .spasi{
+    display: grid;
+    grid-area: spasi;
+    justify-items: center;
+  }
+

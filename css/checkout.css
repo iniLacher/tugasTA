@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', cursive;
+    background: #f5f5fb;
+}
+.container {
+    background: #f5f5fb;
+}
+
+.input{
+    /* background: #ddd; */
+    height: 15vh;
+}
+.tengah {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+button {
+    padding: 5px 8vw;
+    background: #1B273D;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.checkout {
+    height: 90%;
+    background: #fff;
+
+}
+.from {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    background: #fff;
+
+}
+.tombol:active {
+    background: #0f1624;
+}
+
+input[type="radio"]{
+    margin: auto;
+}
+.ekspedisi p{
+    font-size: 0.8em;
+}
+.checkout p{
+    font-size: 0.8em;
+    /* margin-top: 1em; */
+}
+.plenet {
+    padding: 2vh 3vw ;
+}
+.metode a {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-right: 0;
+    text-decoration: none;
+    color: black;
+    margin:5px 0 ;
+}
+.metode {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    background: #fff;
+
+}
+.metode a {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.metode a img{
+    display: inline-block;
+    margin-right: 0;
+    max-width: 70px;
+    max-height: 30px;
+    justify-content: end;
+}
+.lblngisor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lblngisor img {
+    float: right;
+}
+.lblngisor label {
+    margin: 0 200px;
+}
+.form-control:focus {
+    border: 1px solid black;
+}
+a img {
+    max-width: 100px;
+    max-height: 100px;
+}
+.lblngisor input{
+    min-width: 16px;
+}
+@media screen and (min-width:576px) {
+    .checkout{
+        min-height: 100px;
+    }
+}
